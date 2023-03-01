@@ -1,0 +1,125 @@
+.Home-portada {
+    position: relative;
+}
+
+.Home-img {
+    max-width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.Home-portada-background {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    background: #000;
+    opacity: 0.2;
+}
+
+.Home-portada-title {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: #fff !important;
+}
+
+.Home-portada-top {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 10%;
+    position: absolute;
+    max-width: 30%;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.Home-portada-separator {
+    height: 1px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.Home-portada-bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    max-width: 60%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Home-cursa {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #eee;
+}
+
+.Home-anteriors {
+    position: relative;
+    max-height: 800px;
+    height: 100%;
+}
+
+.Home-anteriors-content {
+    position: absolute;
+    top: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10;
+}
+
+.Home-portada-mask {
+    position: absolute;
+    bottom: -5px;
+}
+
+.Home-mask {
+    position: absolute;
+    top: -5px;
+    left: 0;
+}
+
+.Home-img-anteriors {
+    max-width: 100%;
+    max-height: 800px;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+
+.Home-button {
+    background: #FFFFFF;
+    border-radius: 20px;
+    margin-top: 40px;
+    cursor: pointer;
+}
+
+.Home-button:hover {
+    background: #dbdbdb;
+    transition: all 0.5s ease-in-out;
+}
+
+.Home-button-text {
+    color: #FF0090 !important;
+    padding: 10px 20px !important;
+}
+
+.Home-button-text:hover {
+    color: #FF0090 !important;
+}

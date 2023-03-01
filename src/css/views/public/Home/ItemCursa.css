@@ -1,0 +1,21 @@
+.ItemCursa-items {
+    display: flex;
+    justify-content: space-between;
+    max-width: 40%;
+    margin: 0 auto;
+    margin-top: 80px;
+}
+.ItemCursa-message {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.ItemCursa-link {
+    color: #FF0090;
+    cursor: pointer;
+}
+.ItemCursa-link:hover {
+    text-decoration: underline;
+}

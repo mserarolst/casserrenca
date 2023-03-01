@@ -1,0 +1,28 @@
+.Eliminador-container {
+    margin-top: 50px;
+    padding: 5%;
+}
+
+.Eliminador-round {
+    border: 1px solid #FF0090;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 5vw;
+    height: 5vw;
+    margin: 0 auto;
+
+}
+
+.Eliminador-number {
+    color: #FF0090;
+}
+
+.Eliminador-title {
+    margin-top: 40px !important;
+}
+
+.Eliminador-text {
+    margin-top: 20px !important;
+}

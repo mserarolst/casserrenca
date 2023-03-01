@@ -11,3 +11,150 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.calendar-body {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(7, minmax(40px, 1fr));
+  grid-template-rows: 50px;
+  grid-auto-rows: minmax(60px, auto) !important;
+}
+
+
+.Portada-line {
+  height: 00%;
+  width: 1px;
+  position: absolute;
+  bottom: 0;
+  background: white;
+}
+
+.Portada-expand {
+  height: 20%;
+  transition: height 0.5s ease-in-out;
+}
+
+.title-expand {
+  opacity: 1;
+  transition: opacity 1s ease-in-out;
+}
+
+svg {
+  display: block;
+}
+
+.showOnScrollLeft {
+  opacity: 1;
+  animation: showOnScrollLeft 0.5s ease-in-out;
+}
+
+@keyframes showOnScrollLeft {
+  0% {
+    transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+.showOnScrollRight {
+  opacity: 1;
+  animation: showOnScrollRight 0.5s ease-in-out;
+}
+
+@keyframes showOnScrollRight {
+  0% {
+    transform: translateX(100px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+
+.cls-1{fill:#fff;}
+
+.day {
+  padding: 0 !important;
+  position: relative;
+}
+
+.innerDay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.isEvent {
+  height: 100%;
+}
+
+.event {
+  height: 100% !important;
+  margin: 0 !important;
+}
+
+.css-9u8t0p {
+  color: #cd0505 !important;
+}
+
+.css-sgs7ru {
+  position: absolute;
+  z-index: 99;
+  right: 0;
+  top: 5px;
+}
+
+.css-1i1ddni-Event-Event {
+  height: 100% !important;
+}
+
+.css-1ag3sn4-MultiEvent-MultiEvent {
+
+  height: 100% !important;
+  color: #cd0505 !important;
+}
+
+.css-53emc3-MultiEvent {
+  color: #cd0505 !important;
+
+}
+
+.css-1ag3sn4-MultiEvent-MultiEvent:hover {
+  background: #cd0505 !important;
+
+}
+
+.css-1i1ddni-Event-Event:hover {
+  background: #cd0505 !important;
+}
+
+.css-1rzlmws {
+  height: 100% !important;
+}
+
+.Footer-text {
+  cursor: pointer;
+}
+@media only screen and (max-width: 850px) {
+  .Footer-text {
+    text-align: center;
+  }
+}
+
+.Footer-text:hover {
+  font-weight: bold;
+}
+
+a {
+  color: unset;
+}
+
+.CustomTextField {
+  background-color: black;
+}

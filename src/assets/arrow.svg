@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="123px" height="35px" viewBox="0 0 123 35" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="square">
+        <g id="Menú-desplegat" transform="translate(-899.000000, -964.000000)" stroke="#D0D0D0" stroke-width="4.14285714">
+            <g id="Group" transform="translate(961.000000, 981.500000) scale(1, -1) rotate(90.000000) translate(-961.000000, -981.500000) translate(946.500000, 922.500000)">
+                <line x1="28.5857143" y1="0.782051282" x2="0.414285714" y2="60.2179487" id="Line-6"></line>
+                <line x1="0.414285714" y1="61.7702703" x2="28.5857143" y2="117.22973" id="Line"></line>
+            </g>
+        </g>
+    </g>
+</svg>
